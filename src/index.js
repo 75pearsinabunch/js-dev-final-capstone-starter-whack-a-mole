@@ -11,6 +11,15 @@ let lastHole = 0;
 let points = 0;
 let difficulty = "hard";
 
+const song = new Audio("https://github.com/75pearsinabunch/js-dev-final-capstone-starter-whack-a-mole/blob/main/myassets/purrple-cat-space-rain.mp3?raw=true");
+const pew = new Audio("https://github.com/75pearsinabunch/js-dev-final-capstone-starter-whack-a-mole/blob/main/myassets/pew.mp3?raw=true");
+
+function stopAudio(audioObject) {
+  audioObject.pause();
+}
+function playAudio(audioObject) {
+  audioObject.play();
+}
 /**
  * Generates a random integer within a range.
  *
@@ -235,6 +244,7 @@ function whack(event) {
   //console.log("wack");
   // TODO: Write your code here.
   // call updateScore()
+  playAudio(pew);
   updateScore();
   return points;
 }
@@ -274,6 +284,7 @@ function setDuration(duration) {
 function stopGame(){
   //console.log("stopGame");
   // stopAudio(song);  //optional
+  stopAudio(song);
   clearInterval(timer);
   return "game stopped";
 }
@@ -284,11 +295,13 @@ function stopGame(){
 * is clicked.
 *
 */
+
 function startGame(){
   //console.log("startGame");
   setDuration(10);
   showUp();
   setEventListeners();
+  playAudio(song);
   clearScore();
   startTimer();
   return "game started";

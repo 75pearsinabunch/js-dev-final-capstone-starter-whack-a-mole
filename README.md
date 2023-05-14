@@ -1,3 +1,10 @@
+Citation for new asset 
+Alien.png - https://www.iconspng.com/image/75672/cartoon-alien
+pew.mp3 - https://getmemetemplates.com/sound-buttons/pew-pew/
+planet.jpg - https://www.freepik.com/free-vector/outer-space-surface-landscape-with-planet_18973676.htm#query=mars%20cartoon&position=3&from_view=keyword&track=ais 
+purrple-cat-space-rain.mp3 - https://www.free-stock-music.com/search.php?keyword=space
+spacegun.png - https://www.pngwing.com/en/free-png-iplci/download
+
 # Web Development Certificate Capstone: Whack-a-Mole!
 
 A local game development studio has decided to create a new game that's based on Whack-A-Mole. If you've ever been to an arcade, you have probably seen or played Whack-A-Mole. It's a game in which a player uses a mallet to hit toy moles, which appear at random, back into their holes.
